@@ -1,0 +1,56 @@
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    margin-top: 30px;
+    width: 393px;
+    height: 396px;
+    border: solid whitesmoke 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    border: solid #222222 0.5px;
+}
+
+.wall {
+    background-color: #054685;
+}
+
+.dots {
+    clip-path: circle(10% at 50% 50%);
+    background-color: yellow;
+}
+
+.power-pellets {
+    border-radius: 50%;
+    background-color: #ff3399;
+    transform: scale(0.7)
+}
+
+.pac-man {
+    background-color: yellow;
+    clip-path: polygon(50% 0%, 83% 12%, 49% 51%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.red-ghost {
+    background-color: red;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 100%, 75% 80%, 50% 100%, 24% 80%, 0 100%, 0% 35%, 20% 10%);
+}
+
+.blue-ghost {
+    background-color: #007aff;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 100%, 75% 80%, 50% 100%, 24% 80%, 0 100%, 0% 35%, 20% 10%);
+}
+
+.orange-ghost {
+    background-color: orange;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 100%, 75% 80%, 50% 100%, 24% 80%, 0 100%, 0% 35%, 20% 10%);
+}
